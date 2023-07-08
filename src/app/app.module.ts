@@ -7,10 +7,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MaterialModule } from './material/material.module';
 import { TypographyComponent } from './components/typography/typography.component';
+import { ToggleComponent } from './components/toggle/toggle.component';
 
 
 @NgModule({
-  declarations: [AppComponent, TypographyComponent, ],
+  declarations: [AppComponent, TypographyComponent, ToggleComponent, ],
   imports: [
     BrowserModule,
     AppRoutingModule,
